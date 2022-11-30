@@ -5,7 +5,7 @@ import { Hero } from '../Hero';
 @Component({
   selector: 'app-heroes',
   templateUrl: './heroes.component.html',
-  styleUrls: ['./heroes.component.scss'] // overwritten by global css, can't figure out why, doesn't matter to me
+  styleUrls: ['./heroes.component.scss']
 })
 export class HeroesComponent {
   heroes = HEROES;
